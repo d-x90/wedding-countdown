@@ -11,4 +11,8 @@
         margin-top: 2%;
         font-size: 3rem;
     }
+
+    @media (max-height: 400px) {
+        font-size: 2rem;
+    }
 }

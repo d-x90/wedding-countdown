@@ -11,6 +11,7 @@ export default function Home() {
       <div className={styles.invitation}>
         <Core></Core>
       </div>
+      <a className={styles.credits} href="http://www.freepik.com">Designed by BiZkettE1 / Freepik</a>
     </>
   )
 }

@@ -44,7 +44,7 @@ const Counter = ({date}) => {
         return () => {
             clearInterval(intervalHandler);
         }
-    }, [])
+    }, [date])
 
     return <div className={counter}>{counterString}</div>
 }
