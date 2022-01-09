@@ -1,0 +1,14 @@
+.counter {
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #424049;
+    font-size: 5.5rem;
+    font-weight: lighter;
+
+    backdrop-filter: blur();
+
+    @media (max-width: 577px) {
+        margin-top: 2%;
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,21 @@
+.invitation {
+    width: 100vw;
+    height: 100vh;
+
+    background: url('../public/bg.jpg');
+    background-position: center center;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    @media (max-width: 577px) { 
+        background: url('../public/bg-rotate-smaller.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+}
