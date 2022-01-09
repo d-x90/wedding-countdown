@@ -23,7 +23,12 @@ const Core = () => {
                         <Counter date={dateOfWedding}></Counter>
                         <span className={signoNames}>Jenni&Dávid</span>
                         <span className={weddingDate}>2022.06.18</span>
-                        <span className={weddingLocation}>Gánt</span>
+                        <a 
+                            className={weddingLocation}
+                            href='https://www.google.com/maps/d/u/0/viewer?ie=UTF8&om=0&source=embed&oe=UTF8&msa=0&mid=1axWYGF4vqs-lKb0smDE60AGFnt8&ll=47.38945899999998%2C18.387487&z=17'
+                            target="_blank"
+                            rel="noreferrer"
+                        >Gánt</a>
                     </div>
                 </div>
             </Atropos>
