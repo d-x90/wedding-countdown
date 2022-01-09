@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import * as styles from '../styles/Home.module.scss'
+import style from '../styles/Home.module.scss'
 import Core from '../components/Core'
 
 export default function Home() {
@@ -8,10 +8,10 @@ export default function Home() {
       <Head>
         <title>Jenni&Dávid</title>
       </Head>
-      <div className={styles.invitation}>
+      <div className={style.invitation}>
         <Core></Core>
       </div>
-      <a className={styles.credits} href="http://www.freepik.com">Designed by BiZkettE1 / Freepik</a>
+      <a className={style.credits} href="http://www.freepik.com">Designed by BiZkettE1 / Freepik</a>
     </>
   )
 }

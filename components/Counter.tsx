@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { counter } from "../styles/Counter.module.scss" 
+import style from "../styles/Counter.module.scss" 
 
 const ONE_DAY_IN_MILIS = 24 * 60 * 60 * 1000;
 const ONE_HOUR_IN_MILIS = 60 * 60 * 1000;
@@ -46,7 +46,7 @@ const Counter = ({date}) => {
         }
     }, [date])
 
-    return <div className={counter}>{counterString}</div>
+    return <div className={style.counter}>{counterString}</div>
 }
 
 export default Counter;
