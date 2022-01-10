@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import style from '../styles/Core.module.scss'
 import Counter from './Counter';
 
-const dateOfWedding = new Date("2022-06-18");
+const dateOfWedding = new Date("Sat, 18 Jun 2022 00:00:00 UTC+1");
 
 const Core = () => {
     const text = useRef(null)

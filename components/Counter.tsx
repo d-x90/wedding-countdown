@@ -16,8 +16,7 @@ const Counter = ({date}) => {
             let minutes = 0;
             let seconds = 0;
 
-            // This will only be used in UTC+2
-            let diff = date.getTime() + ONE_HOUR_IN_MILIS - Date.now();
+            let diff = date.getTime() - Date.now();
     
             if(diff >= ONE_DAY_IN_MILIS) {
                 days = Math.floor(diff / ONE_DAY_IN_MILIS);
