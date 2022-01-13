@@ -1,18 +1,21 @@
 .counter {
-    letter-spacing: 1.5px;
-    font-family: 'Montserrat', sans-serif;
-    color: #424049;
-    font-size: 5.5rem;
-    font-weight: lighter;
+  letter-spacing: 1.5px;
+  font-family: "Montserrat", sans-serif;
+  color: #424049;
+  font-size: calc((1vw + 1vh) * 2.25);
+  font-weight: lighter;
 
-    backdrop-filter: blur();
+  @media (max-height: 430px) {
+    margin-top: 2%;
+    font-size: 2rem;
+  }
 
-    @media (max-width: 577px) {
-        margin-top: 2%;
-        font-size: 3rem;
-    }
+  @media (max-width: 577px) {
+    margin-top: 2%;
+    font-size: 3rem;
+  }
 
-    @media (max-height: 400px) {
-        font-size: 2rem;
-    }
+  @media (max-height: 400px) {
+    font-size: 2rem;
+  }
 }

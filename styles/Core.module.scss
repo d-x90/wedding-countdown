@@ -1,140 +1,141 @@
 .core {
-    width: 75vh;
-    height: 75vh;
+  width: 75vh;
+  height: 75vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    @media (max-width: 577px) { 
-        width: 95vw;
-        height: 95vw;
-    }
+  @media (max-width: 577px) {
+    width: 95vw;
+    height: 95vw;
+  }
 }
 
 .myAtropos {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .movingContainer {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .movingFlowers {
-    width: 97%;
-    height: 95%;
-    background: url('../public/core.webp');
-    background-position: center center;
-    background-size: cover;
+  width: 97%;
+  height: 95%;
+  background: url("../public/core.webp");
+  background-position: center center;
+  background-size: cover;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 
-    padding-top: 27.5%;
+  padding-top: 27.5%;
 
-    > span {
-        transition: transform 0.3s;
-        transition-timing-function: ease-out;
-    }
+  > span {
+    transition: transform 0.3s;
+    transition-timing-function: ease-out;
+  }
 }
 
 .invitationTitle {
-    font-family: 'Cormorant', serif;
-    color: #424049;
-    font-size: 3rem;
-    font-weight: bold;
-    letter-spacing: 3px;
-    margin-bottom: 5%;
-    
-    @media (max-width: 577px) { 
-        font-size: 1.5rem;
-    }
+  font-family: "Cormorant", serif;
+  color: #424049;
+  font-size: calc((1vw + 1vh) * 1);
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 5%;
 
-    @media (max-height: 800px) { 
-        font-size: 1.5rem;
-    }
+  @media (max-width: 577px) {
+    font-size: 1.5rem;
+  }
 
-    @media (max-height: 400px) {
-        font-size: 1rem;
-    }
+  @media (max-height: 800px) {
+    font-size: 1.5rem;
+  }
 
-    @media (max-width: 355px) { 
-        font-size: 1rem;
-    }
+  @media (max-height: 400px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 355px) {
+    font-size: 1rem;
+  }
 }
 
 .signoNames {
-    font-family: 'Signatie', serif;
-    color: #424049;
-    font-size: 4rem;
+  font-family: "Signatie", serif;
+  color: #424049;
+  font-size: calc((1vw + 1vh) * 1.6);
 
-    
-    @media (max-width: 577px) { 
-        font-size: 2.5rem;
-    }
+  @media (max-width: 577px) {
+    margin-top: -3%;
+    font-size: 2.5rem;
+  }
 
-    @media (max-height: 400px) {
-        font-size: 1.5rem;
-    }
+  @media (max-height: 400px) {
+    margin-top: -2%;
+    font-size: 1.5rem;
+  }
 
-    @media (max-width: 355px) { 
-        font-size: 1.5rem;
-    }
+  @media (max-width: 355px) {
+    font-size: 1.5rem;
+  }
 }
 
 .weddingDate {
-    font-family: 'Cormorant', serif;
-    color: #424049;
-    font-size: 3rem;
-    
-    font-weight: bold;
+  font-family: "Cormorant", serif;
+  color: #424049;
+  font-size: calc((1vw + 1vh) * 1);
+  margin-top: -3%;
 
-    @media (max-width: 577px) { 
-        margin-top: -3%;
-        font-size: 1.5rem;
-    }
+  font-weight: bold;
 
-    @media (max-height: 800px) {
-        font-size: 1.5rem;
-    }
+  @media (max-width: 577px) {
+    font-size: 1.5rem;
+  }
 
-    @media (max-height: 400px) {
-        font-size: 1rem;
-    }
+  @media (max-height: 800px) {
+    font-size: 1.5rem;
+  }
 
-    @media (max-width: 355px) { 
-        font-size: 1rem;
-    }
+  @media (max-height: 400px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 355px) {
+    font-size: 1rem;
+  }
 }
 
 .weddingLocation {
-    font-family: 'Cormorant', serif;
-    color: #424049;
-    font-size: 3rem;
-    
-    font-weight: bold;
+  font-family: "Cormorant", serif;
+  color: #424049;
+  font-size: calc((1vw + 1vh) * 1);
 
-    @media (max-width: 577px) { 
-        font-size: 1.5rem;
-    }
+  font-weight: bold;
 
-    @media (max-height: 800px) { 
-        font-size: 1.5rem;
-    }
+  @media (max-width: 577px) {
+    font-size: 1.5rem;
+  }
 
-    @media (max-height: 400px) {
-        font-size: 1rem;
-    }
+  @media (max-height: 800px) {
+    font-size: 1.5rem;
+  }
 
-    @media (max-width: 355px) { 
-        font-size: 1rem;
-    }
+  @media (max-height: 400px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 355px) {
+    font-size: 1rem;
+  }
 }
